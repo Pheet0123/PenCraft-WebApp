@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300px;
+}
+
+img{ 
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+.nav_bar{
+    top: 0;
+    position: sticky;
+    background: #473757;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    
+}
+.bar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.h1{
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #BBBBBB;
+}
+.h1l{
+
+        font-size:29px ;
+        cursor: pointer;
+        margin: 30px;
+        color: #FFFFFF;
+}
+.HP{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+
+.HP:hover{
+    transition: 1s;
+    color: #EE92A9;
+}
+
+
+
+.Buynow{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #F5F5F5;
+    height: 459px;
+    padding: 0 30px ;
+}
+.Buynow_topic{
+
+    margin: 30px;
+    color: #363636;
+
+}
+.Buynow_topic div{
+    padding: 15px;
+    margin: 30px 0px 0px 0px;
+}
+.Buynow > div h1 {
+    font-size: 96px;
+}
+
+.Buynow > div p{
+
+    font-size: 30px;
+}
+.btn_buy{
+    text-decoration: none;
+    width: 243px;
+    height: 58px;
+    border: none;
+    border-radius: 15px;
+    font-size: 32px;
+    background: #EE92A9;
+    color: #363636;
+}
+
+.btn_buy:hover{
+    border: 2px solid #8D62B8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img_buynow{
+    width: 571px;
+    height: 490px;
+   
+}
+
+
+
+.ability{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D3B3F1;
+    height: fit-content;
+    padding:10px 30px ;
+    width: auto;
+    height: 351px;
+
+}
+
+.ab{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 134px;
+    height: fit-content;
+}
+
+.ab > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 129px;
+   
+}
+.ab > div>.img_ab{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Tab {
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+}
+.lore{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 424px;
+    background: #F5F5F5;
+    padding: 0 60px ;
+
+    
+}
+.img_lore{
+    width: 539px;
+    height: 309px;
+    background: #363636;
+    border-radius: 20px;
+}
+.lore div {
+    margin: 50px 0 0 0 ;
+}
+.lore_text h1 {
+    margin: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+.lore_text p{
+    width: 900px;
+    font-size: 20px;
+}
+.btn_P{
+    height: 233px;
+    text-align: center;
+    padding: 0 30px ;
+    background: #D3B3F1;
+}
+
+.btn_P button{
+    margin: 80px 0 0 0;
+    width: 340px;
+    height: 57px;
+    border: none;
+    border-radius: 15px;
+    font-size: 32px;
+    background: #EE92A9;
+}
+
+.btn_P button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid #8D62B8;
+
+    
+}
+.btn_P p {
+    margin: 10px;
+    font-size: 24px;
+    color: #363636;
+}
+
+
+
+.btn_P_text{
+    color: #363636;
+text-decoration: none;
+
+}
+
+.end_home{
+    padding: 0 30px ;
+    display: flex;
+    align-content: center;
+    justify-content: space-between   ;
+    align-items: center;
+    background: #473757;
+}
+.end_home img{
+    
+    width: 70px;
+    height: 70px;
+}
+.end_home p {
+    color: #FFFFFF;
+    margin: 25px;
+}
